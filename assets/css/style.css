@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+    --headding-font: "Overlock", sans-serif;
+    --body-font: "Lato", sans-serif;
+
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--headding-font);
+
+}
+
+.btn-custom {
+    background-color: crimson;
+    color: #fff;
+    border-radius: 0;
+
+}
+
+/* header */
+.header {
+    position: absolute;
+    width: 100%;
+
+}
+
+.navber-color {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.collapse ul li a:hover {
+    background-color: #e00a0a;
+    border-radius: 15px;
+}
+
+.icon {
+    color: black;
+}
+
+/* banner */
+.banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/banner-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.restan h1 {
+    font-size: 145px;
+}
+
+.restan h4 {
+    margin-left: 200px;
+    padding: 10px 40px;
+    font-size: 36px;
+
+}
+
+.ps-table-line {
+    width: 130px;
+    height: 2px;
+    border: 1px solid red;
+    padding-left: 240px;
+}
+
+
+.restan {
+    margin-top: 70px;
+
+}
+
+/* best-food */
+.best-food {
+    margin-top: 90px;
+}
+
+.best-food-text h2 {
+    color: rgb(27, 27, 27);
+    font-family: Overlock;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+.best-food-text-1 p {
+    color: rgb(102, 102, 102);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-right: 50px;
+    margin-bottom: 0rem;
+
+}
+
+.text-b {
+    background: rgb(27, 27, 27);
+    color: #fff;
+    line-height: 18px;
+    padding: 15px 20px;
+    margin-right: 30px 10px;
+
+}
+
+.text p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 26px;
+
+}
+
+/* our menu */
+
+.list ul li {
+    font-size: 22px;
+    padding: 0px 10px;
+    font-family: var(--body-font);
+    border-radius: 10px;
+
+}
+
+.list .border {
+    width: 848px;
+    height: 80px;
+    align-items: center;
+    margin-left: 120px;
+}
+
+
+.list ul li:hover {
+    color: #fff;
+    background-color: red;
+}
+
+.card-body {
+    position: absolute;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--body-font);
+    background-color: #fff;
+    color: black;
+    /* margin-top: 211px; */
+    border-top-right-radius: 5px;
+    bottom: 0;
+    left: 0;
+}
+
+.card-body i {
+    color: red;
+}
+
+.icon-card i {
+    color: red;
+}
+
+.card a {
+    border-radius: 15px;
+
+}
+
+.card-a-tag {
+    height: 45px;
+    text-align: center;
+}
+
+.card .card-a-tag .border {
+    padding: 0 30px;
+}
+
+.card-text-2 {
+    border: 1px solid #E7272D;
+    border-radius: 10px;
+    margin: 0 20px 10px;
+    justify-content: center;
+    padding: 10px 0;
+
+    i {
+        color: #E7272D;
+        padding-right: 10px;
+    }
+
+    p {
+        color: aquamarine;
+    }
+}
+
+/* reservation */
+.reservation {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    color: #fff;
+    margin-top: 40px;
+
+}
+
+.reservation-1 h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 15px;
+
+}
+
+.reservation-1 p {
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 13px;
+
+}
+
+.form-area {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-area .btn {
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+
+/* our food gallery */
+.food-gallery h2 {
+    font-size: 45px;
+    line-height: 67px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+/* address */
+.footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: var(--body-font);
+}
+.footer .line {
+    width: 450px;
+    border: 1px solid #FFF;
+    height: 0px;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #FFF;
+    font-family: var(--body-font);
+
+}
+.footer a:hover {
+    color: #e00a0a;
+    font-family: var(--body-font);
+}
+
+.footer .social-icons a {
+    margin-right: 10px;
+    font-size: 18px;
+    font-family: var(--body-font);
+}
+
+
