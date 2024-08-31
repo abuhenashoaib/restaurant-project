@@ -44,17 +44,29 @@ h6 {
 
 .navber-color {
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 0px;
+    
 }
 
-.collapse ul li a:hover {
-    background-color: #e00a0a;
-    border-radius: 15px;
-}
 
 .icon {
     color: black;
 }
+
+.icon-10 {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #fff;
+    background-color: #e00a0a;
+    margin-left: 32px;
+    width: 14px 12px;
+    height: 11px 76px;
+    border-radius: 50%;
+    padding: 1px;
+
+}
+
 
 /* banner */
 .banner {
@@ -112,7 +124,7 @@ h6 {
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
-    margin-right: 50px;
+    margin-top: 20px;
     margin-bottom: 0rem;
 
 }
@@ -124,12 +136,16 @@ h6 {
     padding: 15px 20px;
     margin-right: 30px 10px;
 
+    h5 {
+        line-height: 10px;
+    }
+
 }
 
-.text p {
+.text-b p {
     color: #fff;
     font-size: 13px;
-    line-height: 26px;
+    padding-right: 20px;
 
 }
 
@@ -158,13 +174,13 @@ h6 {
 
 .card-body {
     position: absolute;
-    width: 250px;
+    width: 270px;
+    height: 50px;
     font-size: 18px;
     font-weight: 700;
     font-family: var(--body-font);
     background-color: #fff;
     color: black;
-    /* margin-top: 211px; */
     border-top-right-radius: 5px;
     bottom: 0;
     left: 0;
@@ -192,6 +208,12 @@ h6 {
     padding: 0 30px;
 }
 
+.card a{
+    border-radius: 10px;
+    color: #E7272D;
+    margin: 0 20px;
+}
+
 .card-text-2 {
     border: 1px solid #E7272D;
     border-radius: 10px;
@@ -199,15 +221,18 @@ h6 {
     justify-content: center;
     padding: 10px 0;
 
-    i {
-        color: #E7272D;
-        padding-right: 10px;
-    }
-
-    p {
-        color: aquamarine;
-    }
 }
+
+/* .card a:hover{
+    background-color: #E7272D;
+    color: #FFF;
+
+} */
+
+
+
+
+
 
 /* reservation */
 .reservation {
@@ -257,6 +282,7 @@ h6 {
 }
 
 /* our food gallery */
+
 .food-gallery h2 {
     font-size: 45px;
     line-height: 67px;
@@ -264,6 +290,19 @@ h6 {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 70px;
+    vertical-align: middle;
+
+}
+
+.food-gallery-1 {
+    position: absolute;
+    width: 130px;
+    font-size: 10px;
+    font-family: var(--body-font);
+    color: #FFFFFF;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -276,6 +315,7 @@ h6 {
     margin-bottom: 10px;
     font-family: var(--body-font);
 }
+
 .footer .line {
     width: 450px;
     border: 1px solid #FFF;
@@ -283,11 +323,23 @@ h6 {
     margin-top: 30px;
 }
 
+.social-icons a i {
+    width: 35px;
+    height: 35px;
+    background-color: #3F3F3F;
+    line-height: 35px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
 .footer a {
     color: #FFF;
     font-family: var(--body-font);
 
+
 }
+
 .footer a:hover {
     color: #e00a0a;
     font-family: var(--body-font);
@@ -297,6 +349,5 @@ h6 {
     margin-right: 10px;
     font-size: 18px;
     font-family: var(--body-font);
+
 }
-
-
